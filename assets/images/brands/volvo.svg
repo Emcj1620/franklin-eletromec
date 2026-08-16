@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="#8a8d91">
+  <!-- Volvo circle with arrow (Iron/Mars symbol) -->
+  <circle cx="30" cy="32" r="20" stroke="#8a8d91" stroke-width="2.5" fill="none"/>
+  <line x1="44" y1="18" x2="55" y2="7" stroke="#8a8d91" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="55" y1="7" x2="46" y2="7" stroke="#8a8d91" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="55" y1="7" x2="55" y2="16" stroke="#8a8d91" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Diagonal line crossing circle (Volvo signature) -->
+  <line x1="10" y1="32" x2="50" y2="32" stroke="#8a8d91" stroke-width="1.5"/>
+  <!-- Wordmark -->
+  <text x="68" y="40" font-family="'Inter','Helvetica Neue',sans-serif" font-size="22" font-weight="700" letter-spacing="5" fill="#8a8d91">VOLVO</text>
+</svg>

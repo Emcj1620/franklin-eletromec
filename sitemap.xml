@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://franklineletromec.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://franklineletromec.com/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://franklineletromec.com/?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://franklineletromec.com/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://franklineletromec.com/" />
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

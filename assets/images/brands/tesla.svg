@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="#8a8d91">
+  <!-- Tesla "T" emblem + wordmark -->
+  <path d="M 34 8 C 28 8, 18 10, 12 14 L 20 18 C 23 16, 28 15, 34 15 L 34 8 Z" opacity="0.9"/>
+  <path d="M 34 8 C 40 8, 50 10, 56 14 L 48 18 C 45 16, 40 15, 34 15 L 34 8 Z" opacity="0.9"/>
+  <path d="M 30 16 L 34 52 L 38 16 Z"/>
+  <text x="70" y="38" font-family="'Inter','Helvetica Neue',sans-serif" font-size="22" font-weight="700" letter-spacing="6" fill="#8a8d91">TESLA</text>
+</svg>

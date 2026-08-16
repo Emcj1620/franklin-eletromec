@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" fill="#8a8d91">
+  <!-- VW circle emblem -->
+  <circle cx="30" cy="30" r="28" stroke="#8a8d91" stroke-width="2.5" fill="none"/>
+  <circle cx="30" cy="30" r="23" stroke="#8a8d91" stroke-width="1.2" fill="none"/>
+  <!-- V shape -->
+  <path d="M 18 14 L 26 38 L 30 28 L 34 38 L 42 14" stroke="#8a8d91" stroke-width="2.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- W shape -->
+  <path d="M 20 44 L 25 30 L 30 40 L 35 30 L 40 44" stroke="#8a8d91" stroke-width="2.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

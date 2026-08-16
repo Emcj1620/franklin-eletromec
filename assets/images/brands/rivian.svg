@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="#8a8d91">
+  <!-- Rivian compass/mountain emblem -->
+  <path d="M 12 48 L 30 12 L 48 48 Z" stroke="#8a8d91" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+  <path d="M 20 36 L 30 20 L 40 36" stroke="#8a8d91" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+  <!-- Wordmark -->
+  <text x="62" y="38" font-family="'Inter','Helvetica Neue',sans-serif" font-size="22" font-weight="700" letter-spacing="5" fill="#8a8d91">RIVIAN</text>
+</svg>

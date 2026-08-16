@@ -1,0 +1,237 @@
+/* ==========================================================================
+   FRANKLIN ELETROMEC — BASE & TYPOGRAPHY
+   ========================================================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  background-color: var(--bg-deep);
+  color: var(--steel-100);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--steel-200);
+  background-color: #08090C;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-deep);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--steel-600);
+  border-radius: var(--radius-xs);
+  border: 2px solid var(--bg-deep);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-primary);
+}
+
+/* Selection */
+::selection {
+  background: var(--gold-primary);
+  color: var(--bg-deep);
+}
+
+/* Typography Hierarchy */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--steel-100);
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+p {
+  color: var(--steel-300);
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+p.lead {
+  font-size: clamp(1.1rem, 1.35vw, 1.25rem);
+  color: var(--steel-200);
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Layout Utilities */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: relative;
+  z-index: 2;
+}
+
+.container-wide {
+  width: 100%;
+  max-width: var(--container-wide);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: relative;
+  z-index: 2;
+}
+
+.section-padding {
+  padding-top: clamp(80px, 10vw, 130px);
+  padding-bottom: clamp(80px, 10vw, 130px);
+  position: relative;
+}
+
+.section-padding-sm {
+  padding-top: clamp(50px, 6vw, 80px);
+  padding-bottom: clamp(50px, 6vw, 80px);
+  position: relative;
+}
+
+/* Technical Eyebrows */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-tech);
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--gold-primary);
+  margin-bottom: 16px;
+}
+
+.eyebrow::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: var(--gold-primary);
+  box-shadow: 0 0 10px var(--gold-primary);
+}
+
+.eyebrow-steel {
+  color: var(--steel-300);
+}
+.eyebrow-steel::before {
+  background: var(--steel-300);
+  box-shadow: 0 0 8px var(--steel-400);
+}
+
+/* Accent highlight */
+.text-gold {
+  color: var(--gold-primary);
+}
+
+.text-gradient-steel {
+  background: linear-gradient(180deg, #FFFFFF 0%, #A7A9AC 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Section Header Block */
+.section-header {
+  margin-bottom: clamp(40px, 6vw, 70px);
+}
+
+.section-header.text-center {
+  text-align: center;
+}
+
+.section-header.text-center .eyebrow {
+  justify-content: center;
+}
+
+.section-header .subtext {
+  max-width: 680px;
+  margin-top: 16px;
+  font-size: 1.1rem;
+}
+
+.section-header.text-center .subtext {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Engineering Crosshair / Technical Marker */
+.hud-corner {
+  position: relative;
+}
+.hud-corner::after {
+  content: '+';
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-family: var(--font-tech);
+  font-size: 14px;
+  color: var(--steel-500);
+  pointer-events: none;
+}
+
+/* Accessibility & Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

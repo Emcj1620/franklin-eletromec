@@ -1,0 +1,71 @@
+/* ==========================================================================
+   FRANKLIN ELETROMEC — DESIGN SYSTEM & TOKENS
+   Industrial Automation • Electromechanical Solutions • Robotics • Assembly
+   ========================================================================== */
+
+:root {
+  /* Core Brand Colors (Obsidian, Carbon & Slate Architecture) */
+  --bg-deep: #08090C;
+  --bg-surface: #0E1116;
+  --bg-surface-elevated: #13171E;
+  --bg-surface-translucent: rgba(14, 17, 22, 0.85);
+  --bg-card: rgba(255, 255, 255, 0.025);
+  --bg-card-hover: rgba(255, 255, 255, 0.05);
+  --bg-card-elevated: #161A22;
+  --bg-card-translucent: rgba(18, 22, 28, 0.8);
+
+  /* Metallic & Technical Grays */
+  --steel-100: #F4F5F7;
+  --steel-200: #D8DBDF;
+  --steel-300: #A2A8B2;
+  --steel-400: #747B87;
+  --steel-500: #484E59;
+  --steel-600: #292E37;
+  --steel-700: #171A20;
+
+  /* Energy / Action Accent: Franklin Gold */
+  --gold-primary: #F5A900;
+  --gold-light: #FFC43D;
+  --gold-deep: #D48E00;
+  --gold-glow: rgba(245, 169, 0, 0.16);
+  --gold-glow-strong: rgba(245, 169, 0, 0.38);
+  --gold-gradient: linear-gradient(135deg, #F5A900 0%, #E09300 100%);
+  --gold-subtle-bg: rgba(245, 169, 0, 0.08);
+
+  /* Borders & Precision Section Dividers */
+  --border-hairline: 1px solid rgba(255, 255, 255, 0.06);
+  --border-subtle: 1px solid rgba(255, 255, 255, 0.09);
+  --border-metal: 1px solid rgba(162, 168, 178, 0.2);
+  --border-gold: 1px solid rgba(245, 169, 0, 0.35);
+  --border-gold-bright: 1px solid rgba(245, 169, 0, 0.8);
+  --section-divider: 1px solid rgba(255, 255, 255, 0.07);
+
+  /* Typography */
+  --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-tech: 'JetBrains Mono', 'Roboto Mono', 'SF Mono', monospace;
+
+  /* Elevations & Shadows */
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.8);
+  --shadow-gold: 0 0 30px rgba(245, 169, 0, 0.25);
+  --shadow-inner-steel: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+
+  /* Layout Containers */
+  --container-max: 1320px;
+  --container-wide: 1440px;
+  --header-height: 80px;
+
+  /* Transitions */
+  --ease-precision: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 0.2s var(--ease-precision);
+  --transition-smooth: 0.35s var(--ease-precision);
+  --transition-slow: 0.6s var(--ease-precision);
+
+  /* Radius (Controlled & Industrial) */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+}
