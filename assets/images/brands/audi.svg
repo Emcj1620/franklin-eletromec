@@ -1,11 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 50" fill="none">
-  <!-- Audi 4 Interlocking Rings in Chrome/Silver -->
-  <g transform="translate(6, 6)">
-    <circle cx="16" cy="18" r="14" stroke="#E5E5E5" stroke-width="2.5" fill="none"/>
-    <circle cx="36" cy="18" r="14" stroke="#E5E5E5" stroke-width="2.5" fill="none"/>
-    <circle cx="56" cy="18" r="14" stroke="#E5E5E5" stroke-width="2.5" fill="none"/>
-    <circle cx="76" cy="18" r="14" stroke="#E5E5E5" stroke-width="2.5" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" fill="none">
+  <!-- Audi 4 Interlocking Rings in High Definition -->
+  <g transform="translate(15, 14)">
+    <circle cx="28" cy="26" r="23" stroke="#FFFFFF" stroke-width="4.5" fill="none"/>
+    <circle cx="68" cy="26" r="23" stroke="#FFFFFF" stroke-width="4.5" fill="none"/>
+    <circle cx="108" cy="26" r="23" stroke="#FFFFFF" stroke-width="4.5" fill="none"/>
+    <circle cx="148" cy="26" r="23" stroke="#FFFFFF" stroke-width="4.5" fill="none"/>
   </g>
-  <!-- Audi Wordmark -->
-  <text x="100" y="32" font-family="'Inter','Helvetica Neue',sans-serif" font-size="20" font-weight="700" letter-spacing="4" fill="#FFFFFF">AUDI</text>
+  <text x="180" y="47" font-family="'Inter','Helvetica Neue',sans-serif" font-size="24" font-weight="900" letter-spacing="4" fill="#FFFFFF">AUDI</text>
 </svg>

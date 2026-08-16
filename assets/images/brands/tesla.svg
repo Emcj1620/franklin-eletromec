@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 50" fill="none">
-  <!-- Tesla Red T-Emblem -->
-  <g transform="translate(6, 4)">
-    <path d="M7 6 C15 3.5 25 3.5 33 6 L34 11 C26 9 14 9 6 11 Z" fill="#E82127"/>
-    <path d="M19 14 L21 14 L21 40 L19 40 Z" fill="#E82127"/>
-    <path d="M10 13 C15 11 25 11 30 13 C26 18 24 24 23 32 L17 32 C16 24 14 18 10 13 Z" fill="#E82127"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" fill="none">
+  <!-- Tesla Red T-Emblem & Bold Wordmark -->
+  <g transform="translate(16, 12)">
+    <path d="M6 7 C18 3.5 36 3.5 48 7 L50 14 C38 11.5 16 11.5 4 14 Z" fill="#E82127"/>
+    <path d="M25 18 L29 18 L29 54 L25 54 Z" fill="#E82127"/>
+    <path d="M12 17 C19 14.5 35 14.5 42 17 C37 24 34 32 33 43 L21 43 C20 32 17 24 12 17 Z" fill="#E82127"/>
   </g>
-  <!-- Tesla Wordmark -->
-  <text x="50" y="32" font-family="'Inter','Helvetica Neue',sans-serif" font-size="18" font-weight="700" letter-spacing="6" fill="#FFFFFF">TESLA</text>
+  <text x="82" y="47" font-family="'Inter','Helvetica Neue',sans-serif" font-size="28" font-weight="800" letter-spacing="7" fill="#FFFFFF">TESLA</text>
 </svg>

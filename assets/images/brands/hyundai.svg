@@ -1,9 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 50" fill="none">
-  <!-- Hyundai Italic Oval H -->
-  <g transform="translate(6, 6)">
-    <ellipse cx="20" cy="18" rx="18" ry="13" stroke="#002C6C" stroke-width="2.5" fill="none" transform="rotate(-10, 20, 18)"/>
-    <path d="M12 11 L14 25 M26 11 L28 25 M13 18 L27 18" stroke="#002C6C" stroke-width="3" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 80" fill="none">
+  <!-- Hyundai HD Italic Oval H & Bold Wordmark -->
+  <g transform="translate(12, 12)">
+    <ellipse cx="30" cy="28" rx="26" ry="20" stroke="#00AAD2" stroke-width="4" fill="none" transform="rotate(-12, 30, 28)"/>
+    <path d="M19 16 L23 40 M39 16 L43 40 M20 28 L42 28" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
   </g>
-  <!-- Hyundai Wordmark -->
-  <text x="52" y="32" font-family="'Inter','Helvetica Neue',sans-serif" font-size="18" font-weight="700" letter-spacing="3" fill="#FFFFFF">HYUNDAI</text>
+  <text x="82" y="47" font-family="'Inter','Helvetica Neue',sans-serif" font-size="24" font-weight="900" letter-spacing="4" fill="#FFFFFF">HYUNDAI</text>
 </svg>
