@@ -1128,4 +1128,13 @@
   .hero-ctas .btn {
     width: 100%;
   }
+  .contact-form-side {
+    padding: 24px 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form-side {
+    padding: 20px 14px;
+  }
 }

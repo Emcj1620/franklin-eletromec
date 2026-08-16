@@ -828,8 +828,8 @@
         <div class="contact-form-side">
           <h3 style="margin-bottom: 24px; color: var(--steel-100);" data-i18n="contact.formTitle">Request Project Proposal</h3>
 
-          <form id="projectRequestForm">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <form id="projectRequestForm" class="contact-form">
+            <div class="form-row-2">
               <div class="form-group">
                 <label for="formName" class="form-label" data-i18n="contact.labelName">Full Name *</label>
                 <input type="text" id="formName" class="form-input" required data-i18n-placeholder="contact.placeholderName" placeholder="e.g., Robert Mitchell">
@@ -841,7 +841,7 @@
               </div>
             </div>
 
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+            <div class="form-row-2">
               <div class="form-group">
                 <label for="formEmail" class="form-label" data-i18n="contact.labelEmail">Corporate Email *</label>
                 <input type="email" id="formEmail" class="form-input" required data-i18n-placeholder="contact.placeholderEmail" placeholder="e.g., rmitchell@company.com">
@@ -853,7 +853,7 @@
               </div>
             </div>
 
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+            <div class="form-row-2">
               <div class="form-group">
                 <label for="formCountry" class="form-label" data-i18n="contact.labelCountry">Project Country</label>
                 <select id="formCountry" class="form-select">
