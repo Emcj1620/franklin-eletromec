@@ -456,18 +456,20 @@
   position: fixed;
   top: 0;
   right: -100%;
-  width: 85%;
-  max-width: 380px;
+  width: 86%;
+  max-width: 360px;
   height: 100vh;
-  background: #0D0F11;
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: -10px 0 40px rgba(0, 0, 0, 0.9);
-  padding: 100px 30px 40px;
+  height: 100dvh;
+  background: linear-gradient(180deg, #101319 0%, #090B0E 100%);
+  border-left: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: -15px 0 50px rgba(0, 0, 0, 0.95);
+  padding: 85px 22px 26px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   z-index: 999;
-  transition: right var(--transition-smooth);
+  transition: right 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow-y: auto;
 }
 
 .mobile-drawer.open {
@@ -482,6 +484,7 @@
   height: 100vh;
   background: rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   z-index: 998;
   opacity: 0;
   pointer-events: none;
@@ -493,25 +496,71 @@
   pointer-events: auto;
 }
 
+.drawer-header {
+  margin-bottom: 20px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.drawer-logo {
+  height: 38px;
+  width: auto;
+  max-width: 190px;
+  object-fit: contain;
+  display: block;
+}
+
+.drawer-nav {
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+
 .mobile-nav-links {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 8px;
 }
 
 .mobile-nav-link {
   font-family: var(--font-heading);
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   font-weight: 600;
   color: var(--steel-200);
+  padding: 10px 14px;
+  border-radius: var(--radius-xs);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  transition: all 0.2s ease;
+  text-decoration: none;
 }
 
 .mobile-nav-link:hover, .mobile-nav-link.active {
-  color: var(--gold-primary);
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 3px solid var(--gold-primary);
+  padding-left: 18px;
+}
+
+.drawer-footer {
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  flex-shrink: 0;
+}
+
+.drawer-cta-btn {
+  width: 100%;
+  padding: 14px 20px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 /* --------------------------------------------------------------------------

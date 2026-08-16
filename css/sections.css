@@ -146,38 +146,37 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 72px;
+  min-height: 76px;
   width: 100%;
-  padding: 14px 12px;
-  background: rgba(255, 255, 255, 0.025);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 14px 16px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-xs);
-  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.3s var(--ease-precision);
   cursor: default;
 }
 
 .client-logo-img {
   width: 100%;
   height: auto;
-  max-height: 38px;
+  max-height: 42px;
   object-fit: contain;
-  opacity: 0.38;
-  filter: grayscale(100%) brightness(1.2);
-  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  opacity: 1;
+  filter: none;
+  transition: transform var(--transition-fast);
   user-select: none;
-  pointer-events: none;
+  display: block;
 }
 
 .brand-item:hover {
-  background: rgba(255, 255, 255, 0.06);
-  border-color: rgba(245, 169, 0, 0.3);
-  transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 15px rgba(245, 169, 0, 0.08);
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(245, 169, 0, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5), 0 0 15px rgba(245, 169, 0, 0.08);
 }
 
 .brand-item:hover .client-logo-img {
-  opacity: 0.85;
-  filter: grayscale(0%) brightness(1.6);
+  transform: scale(1.04);
 }
 
 .authority-disclaimer {

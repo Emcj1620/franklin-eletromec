@@ -106,11 +106,12 @@
   <!-- Mobile Drawer & Overlay -->
   <div class="mobile-drawer-overlay"></div>
   <aside class="mobile-drawer" aria-label="Mobile Navigation Drawer">
-    <div>
-      <div style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid rgba(255, 255, 255, 0.08);">
-        <img src="assets/images/franklin_logo_official.png?v=3" alt="Franklin Eletromec" style="height: 44px; width: auto; max-width: 220px; display: block;">
-      </div>
-      <div class="eyebrow" data-i18n="hero.eyebrow">INDUSTRIAL SOLUTIONS</div>
+    <div class="drawer-header">
+      <img src="assets/images/franklin_logo_official.png?v=4" alt="Franklin Eletromec" class="drawer-logo">
+      <div class="eyebrow" data-i18n="hero.eyebrow" style="font-size: 0.72rem; margin-bottom: 0;">INDUSTRIAL AUTOMATION</div>
+    </div>
+
+    <nav class="drawer-nav">
       <ul class="mobile-nav-links">
         <li><a href="#hero" class="mobile-nav-link" data-i18n="nav.home">Home</a></li>
         <li><a href="#capabilities" class="mobile-nav-link" data-i18n="nav.solutions">Solutions</a></li>
@@ -120,16 +121,12 @@
         <li><a href="#about" class="mobile-nav-link" data-i18n="nav.company">Company</a></li>
         <li><a href="#contact" class="mobile-nav-link" data-i18n="nav.contact">Contact</a></li>
       </ul>
-    </div>
-    <div>
-      <div class="lang-selector" style="margin-bottom: 20px; width: 100%; justify-content: center;">
-        <button class="lang-btn active" data-lang="en">EN (English)</button>
-        <button class="lang-btn" data-lang="pt">PT (Português)</button>
-        <button class="lang-btn" data-lang="es">ES (Español)</button>
-      </div>
-      <a href="#contact" class="btn btn-primary" style="width: 100%;">
+    </nav>
+
+    <div class="drawer-footer">
+      <a href="#contact" class="btn btn-primary drawer-cta-btn">
         <span data-i18n="nav.requestQuote">Request a Quote</span>
-        <span>→</span>
+        <span class="btn-arrow">→</span>
       </a>
     </div>
   </aside>

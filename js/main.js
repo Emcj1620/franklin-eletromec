@@ -40,6 +40,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     menuToggle.addEventListener('click', toggleMenu);
     overlay.addEventListener('click', toggleMenu);
+
+    // Close drawer when any nav link or CTA is clicked
+    drawer.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        drawer.classList.remove('open');
+        overlay.classList.remove('active');
+        menuToggle.classList.remove('active');
+        document.body.style.overflow = '';
+      });
+    });
   }
 
   // 5. Contact Form Submission & Toast Feedback
