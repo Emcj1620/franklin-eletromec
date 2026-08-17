@@ -946,12 +946,29 @@
 .contact-section {
   background: linear-gradient(180deg, #0E1117 0%, #08090C 100%);
   border-top: 1px solid rgba(255, 255, 255, 0.09);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-section .container {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  max-width: var(--container-max);
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
 }
 
 .contact-layout {
   display: grid;
   grid-template-columns: 1fr 1.25fr;
-  gap: clamp(40px, 6vw, 80px);
+  gap: clamp(32px, 5vw, 64px);
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .contact-info-side h2 {
@@ -1010,9 +1027,12 @@
 .contact-form-side {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(18, 22, 28, 0.95) 100%);
   border: 1px solid rgba(255, 255, 255, 0.12);
-  padding: clamp(30px, 4vw, 48px);
+  padding: clamp(26px, 4vw, 44px);
   border-radius: var(--radius-xs);
   box-shadow: var(--shadow-md);
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
 /* --------------------------------------------------------------------------
@@ -1133,13 +1153,25 @@
   .hero-ctas .btn {
     width: 100%;
   }
+  .contact-section .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .contact-form-side {
-    padding: 24px 18px;
+    padding: 24px 20px;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
 
 @media (max-width: 480px) {
+  .contact-section .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .contact-form-side {
-    padding: 20px 14px;
+    padding: 20px 16px;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
