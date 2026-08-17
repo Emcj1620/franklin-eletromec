@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" fill="none">
-  <!-- GMC Bold Red Letters with Chrome Silver Bevel & White Outline -->
-  <text x="32" y="58" font-family="'Impact','Arial Black',sans-serif" font-size="56" font-weight="900" letter-spacing="6" fill="#D9142A" stroke="#FFFFFF" stroke-width="2.5">GMC</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <!-- GMC Bold Crimson Red Block Vector Typography -->
+  <g transform="translate(30, 10)">
+    <!-- G -->
+    <path d="M0 8 C0 2.5 3.5 0 9 0 H36 V9 H12 C10 9 9 9.8 9 11.5 V28.5 C9 30.2 10 31 12 31 H26 V22 H19 V15 H36 V40 H9 C3.5 40 0 37.5 0 32 Z" fill="#D9142A" stroke="#FFFFFF" stroke-width="1.8"/>
+    <!-- M -->
+    <path d="M42 0 H52 L62 20 L72 0 H82 V40 H72 V16 L64.5 30 H59.5 L52 16 V40 H42 Z" fill="#D9142A" stroke="#FFFFFF" stroke-width="1.8"/>
+    <!-- C -->
+    <path d="M88 8 C88 2.5 91.5 0 97 0 H124 V9 H100 C98 9 97 9.8 97 11.5 V28.5 C97 30.2 98 31 100 31 H124 V40 H97 C91.5 40 88 37.5 88 32 Z" fill="#D9142A" stroke="#FFFFFF" stroke-width="1.8"/>
+  </g>
 </svg>

@@ -1,17 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" fill="none">
-  <!-- BMW Official High-Definition Roundel & Wordmark -->
-  <g transform="translate(18, 12)">
-    <circle cx="28" cy="28" r="27" fill="#000000" stroke="#E5E7EB" stroke-width="2.5"/>
-    <circle cx="28" cy="28" r="20" fill="#FFFFFF"/>
-    <!-- Quadrants -->
-    <path d="M28 8 A20 20 0 0 1 48 28 L28 28 Z" fill="#0066B1"/>
-    <path d="M28 28 L8 28 A20 20 0 0 1 28 8 Z" fill="#FFFFFF"/>
-    <path d="M28 28 L28 48 A20 20 0 0 1 8 28 Z" fill="#0066B1"/>
-    <path d="M48 28 A20 20 0 0 1 28 48 L28 28 Z" fill="#FFFFFF"/>
-    <circle cx="28" cy="28" r="20" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
-    <text x="16" y="14" font-family="'Inter','Helvetica Neue',sans-serif" font-size="7.5" font-weight="900" fill="#FFFFFF">B</text>
-    <text x="24.5" y="11" font-family="'Inter','Helvetica Neue',sans-serif" font-size="7.5" font-weight="900" fill="#FFFFFF">M</text>
-    <text x="34.5" y="14" font-family="'Inter','Helvetica Neue',sans-serif" font-size="7.5" font-weight="900" fill="#FFFFFF">W</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <!-- BMW Official Roundel -->
+  <g transform="translate(18, 5)">
+    <circle cx="25" cy="25" r="24" fill="#000000" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="25" cy="25" r="17.5" fill="#FFFFFF"/>
+    <!-- Blue Quadrants -->
+    <path d="M25 7.5 A17.5 17.5 0 0 1 42.5 25 L25 25 Z" fill="#0066B1"/>
+    <path d="M25 25 L7.5 25 A17.5 17.5 0 0 1 25 7.5 Z" fill="#FFFFFF"/>
+    <path d="M25 25 L25 42.5 A17.5 17.5 0 0 1 7.5 25 Z" fill="#0066B1"/>
+    <path d="M42.5 25 A17.5 17.5 0 0 1 25 42.5 L25 25 Z" fill="#FFFFFF"/>
+    <circle cx="25" cy="25" r="17.5" fill="none" stroke="#D1D5DB" stroke-width="1.2"/>
+    <!-- BMW Letters as Outlined Paths -->
+    <!-- B -->
+    <path d="M16 11.5 H19.5 C20.8 11.5 21.6 12.2 21.6 13.3 C21.6 14.1 21.1 14.7 20.3 15 C21.3 15.3 21.9 16.1 21.9 17.2 C21.9 18.5 20.8 19.5 19.3 19.5 H16 V11.5 Z M17.6 14.5 H19 C19.6 14.5 20.1 14.1 20.1 13.5 C20.1 12.9 19.6 12.5 19 12.5 H17.6 V14.5 Z M17.6 18.5 H19.2 C19.9 18.5 20.4 18 20.4 17.3 C20.4 16.6 19.9 16.1 19.2 16.1 H17.6 V18.5 Z" fill="#FFFFFF" transform="scale(0.85) translate(4,-2)"/>
+    <!-- M -->
+    <path d="M23 10 L25.5 16.5 L28 10 H29.8 V17 H28.3 V12.8 L26.2 17 H24.8 L22.7 12.8 V17 H21.2 V10 H23 Z" fill="#FFFFFF" transform="scale(0.85) translate(4,-1)"/>
+    <!-- W -->
+    <path d="M29.5 10 L31.2 17 H32.8 L34.3 12.5 L35.8 17 H37.4 L39.1 10 H37.4 L36.2 15 L34.9 10 H33.7 L32.4 15 L31.2 10 H29.5 Z" fill="#FFFFFF" transform="scale(0.85) translate(4,-2)"/>
   </g>
-  <text x="90" y="48" font-family="'Inter','Helvetica Neue',sans-serif" font-size="30" font-weight="900" letter-spacing="4" fill="#FFFFFF">BMW</text>
+  <!-- BMW Bold Vector Typography (No Font Dependency) -->
+  <g fill="#FFFFFF" transform="translate(86, 17)">
+    <!-- B -->
+    <path d="M0 0 H14 C18.5 0 21.5 2.2 21.5 6 C21.5 8.5 19.8 10.5 17.2 11.5 C20.5 12.5 22.5 14.8 22.5 18.5 C22.5 23 18.8 26 13.5 26 H0 V0 Z M5.5 10.5 H13 C15 10.5 16.2 9.2 16.2 7.5 C16.2 5.8 15 4.5 13 4.5 H5.5 V10.5 Z M5.5 21.5 H13.5 C15.8 21.5 17 20 17 18 C17 16 15.8 14.5 13.5 14.5 H5.5 V21.5 Z"/>
+    <!-- M -->
+    <path d="M28 0 H34.5 L43.5 16.5 L52.5 0 H59 V26 H53.5 V8.5 L45 23.5 H42 L33.5 8.5 V26 H28 V0 Z"/>
+    <!-- W -->
+    <path d="M64 0 H69.5 L75.5 19.5 L81.5 0 H87.5 L93.5 19.5 L99.5 0 H105 L96.5 26 H90.5 L84.5 7 L78.5 26 H72.5 L64 0 Z"/>
+  </g>
 </svg>

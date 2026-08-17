@@ -1,9 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" fill="none">
-  <!-- Tesla Red T-Emblem & Bold Wordmark -->
-  <g transform="translate(16, 12)">
-    <path d="M6 7 C18 3.5 36 3.5 48 7 L50 14 C38 11.5 16 11.5 4 14 Z" fill="#E82127"/>
-    <path d="M25 18 L29 18 L29 54 L25 54 Z" fill="#E82127"/>
-    <path d="M12 17 C19 14.5 35 14.5 42 17 C37 24 34 32 33 43 L21 43 C20 32 17 24 12 17 Z" fill="#E82127"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <!-- Tesla Red T-Symbol -->
+  <g fill="#E82127" transform="translate(10, 8)">
+    <path d="M5 4 C15 1.5 29 1.5 39 4 L40 9 C30 7 14 7 4 9 Z"/>
+    <path d="M20 12 L24 12 L24 43 L20 43 Z"/>
+    <path d="M9 11 C15 9 29 9 35 11 C31 17 28 24 27 33 L17 33 C16 24 13 17 9 11 Z"/>
   </g>
-  <text x="82" y="47" font-family="'Inter','Helvetica Neue',sans-serif" font-size="28" font-weight="800" letter-spacing="7" fill="#FFFFFF">TESLA</text>
+  <!-- Tesla Vector Letterforms (Authentic Tesla Path Geometry) -->
+  <g fill="#FFFFFF" transform="translate(60, 20)">
+    <!-- T -->
+    <path d="M0 0 H20 V4 H12 V20 H8 V4 H0 V0 Z"/>
+    <!-- E -->
+    <path d="M26 0 H44 V4 H30 V8 H42 V12 H30 V16 H44 V20 H26 V0 Z"/>
+    <!-- S -->
+    <path d="M50 4 C50 1.5 52 0 55 0 H68 V4 H55 C54 4 54 5 54 6 C54 7 55 8 57 8.5 L65 10.5 C68.5 11.5 70 13.5 70 16 C70 18.5 68 20 64 20 H50 V16 H64 C65 16 66 15 66 14 C66 13 65 12 63 11.5 L55 9.5 C51.5 8.5 50 6.5 50 4 Z"/>
+    <!-- L -->
+    <path d="M76 0 H80 V16 H94 V20 H76 V0 Z"/>
+    <!-- A -->
+    <path d="M100 20 L108 0 H112 L120 20 H115.5 L114 16 H106 L104.5 20 H100 Z M107.5 12 H112.5 L110 5.5 Z"/>
+  </g>
 </svg>

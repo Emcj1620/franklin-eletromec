@@ -1,10 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" fill="none">
-  <!-- Rivian Yellow Compass & Bold Wordmark -->
-  <g transform="translate(14, 10)">
-    <polygon points="26,4 40,18 26,32 12,18" fill="#F4AA00"/>
-    <polygon points="26,24 40,38 26,52 12,38" fill="#F4AA00"/>
-    <polygon points="12,18 26,32 12,46 0,32" fill="#F4AA00"/>
-    <polygon points="40,18 52,32 40,46 26,32" fill="#F4AA00"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <!-- Rivian Yellow Compass (Official Geometry) -->
+  <g transform="translate(14, 11)">
+    <polygon points="18,3 27,12 18,21 9,12" fill="#F4AA00"/>
+    <polygon points="18,17 27,26 18,35 9,26" fill="#F4AA00"/>
+    <polygon points="9,12 18,21 9,30 0,21" fill="#F4AA00"/>
+    <polygon points="27,12 36,21 27,30 18,21" fill="#F4AA00"/>
   </g>
-  <text x="80" y="47" font-family="'Inter','Helvetica Neue',sans-serif" font-size="26" font-weight="900" letter-spacing="5" fill="#FFFFFF">RIVIAN</text>
+  <!-- Rivian Wordmark (Pure Vector Paths) -->
+  <g fill="#FFFFFF" transform="translate(62, 22)">
+    <!-- R -->
+    <path d="M0 0 H8 C12 0 14 1.8 14 4.5 C14 6.8 12.5 8 10.2 8.5 L14.5 16 H10.5 L6.8 9.5 H3 V16 H0 Z M3 7 H7.5 C9.2 7 10.5 6.2 10.5 4.5 C10.5 2.8 9.2 2.2 7.5 2.2 H3 Z"/>
+    <!-- I -->
+    <path d="M17 0 H20.5 V16 H17 Z"/>
+    <!-- V -->
+    <path d="M24 0 L28.5 16 H31.5 L36 0 H32.5 L30 10.5 L27.5 0 Z"/>
+    <!-- I -->
+    <path d="M39 0 H42.5 V16 H39 Z"/>
+    <!-- A -->
+    <path d="M46 16 L51.5 0 H54.5 L60 16 H56.5 L55.2 12 H50.8 L49.5 16 Z M51.5 9.5 H54.5 L53 4.5 Z"/>
+    <!-- N -->
+    <path d="M63 0 H66.5 L73.5 11.5 V0 H77 V16 H73.5 L66.5 4.5 V16 H63 Z"/>
+  </g>
 </svg>

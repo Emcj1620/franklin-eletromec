@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" fill="none">
-  <!-- Audi 4 Interlocking Rings in High Definition -->
-  <g transform="translate(15, 14)">
-    <circle cx="28" cy="26" r="23" stroke="#FFFFFF" stroke-width="4.5" fill="none"/>
-    <circle cx="68" cy="26" r="23" stroke="#FFFFFF" stroke-width="4.5" fill="none"/>
-    <circle cx="108" cy="26" r="23" stroke="#FFFFFF" stroke-width="4.5" fill="none"/>
-    <circle cx="148" cy="26" r="23" stroke="#FFFFFF" stroke-width="4.5" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <!-- Audi 4 Interlocking Rings (Official Chrome/White Geometry) -->
+  <g transform="translate(18, 12)">
+    <circle cx="26" cy="18" r="20" stroke="#FFFFFF" stroke-width="4.2" fill="none"/>
+    <circle cx="64" cy="18" r="20" stroke="#FFFFFF" stroke-width="4.2" fill="none"/>
+    <circle cx="102" cy="18" r="20" stroke="#FFFFFF" stroke-width="4.2" fill="none"/>
+    <circle cx="140" cy="18" r="20" stroke="#FFFFFF" stroke-width="4.2" fill="none"/>
   </g>
-  <text x="180" y="47" font-family="'Inter','Helvetica Neue',sans-serif" font-size="24" font-weight="900" letter-spacing="4" fill="#FFFFFF">AUDI</text>
 </svg>

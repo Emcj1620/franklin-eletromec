@@ -1,8 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 80" fill="none">
-  <!-- Hyundai HD Italic Oval H & Bold Wordmark -->
-  <g transform="translate(12, 12)">
-    <ellipse cx="30" cy="28" rx="26" ry="20" stroke="#00AAD2" stroke-width="4" fill="none" transform="rotate(-12, 30, 28)"/>
-    <path d="M19 16 L23 40 M39 16 L43 40 M20 28 L42 28" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <!-- Hyundai HD Italic Oval H -->
+  <g transform="translate(10, 10)">
+    <ellipse cx="22" cy="20" rx="20" ry="15" stroke="#00AAD2" stroke-width="3" fill="none" transform="rotate(-12, 22, 20)"/>
+    <path d="M13 11 L16 29 M29 11 L32 29 M14 20 L31 20" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
   </g>
-  <text x="82" y="47" font-family="'Inter','Helvetica Neue',sans-serif" font-size="24" font-weight="900" letter-spacing="4" fill="#FFFFFF">HYUNDAI</text>
+  <!-- Hyundai Wordmark (Pure Vector Paths) -->
+  <g fill="#FFFFFF" transform="translate(60, 22)">
+    <!-- H -->
+    <path d="M0 0 H3 V7 H11 V0 H14 V16 H11 V9.5 H3 V16 H0 Z"/>
+    <!-- Y -->
+    <path d="M17 0 L22 8 V16 H25 V8 L30 0 H26.5 L23.5 5.5 L20.5 0 Z"/>
+    <!-- U -->
+    <path d="M33 0 H36 V11 C36 13.5 37.5 14.2 39.5 14.2 C41.5 14.2 43 13.5 43 11 V0 H46 V11 C46 15 43.5 16.5 39.5 16.5 C35.5 16.5 33 15 33 11 Z"/>
+    <!-- N -->
+    <path d="M49 0 H52 L59 11.5 V0 H62 V16 H59 L52 4.5 V16 H49 Z"/>
+    <!-- D -->
+    <path d="M65 0 H72 C77 0 80 3.5 80 8 C80 12.5 77 16 72 16 H65 Z M68 2.5 V13.5 H72 C75.5 13.5 77 11 77 8 C77 5 75.5 2.5 72 2.5 Z"/>
+    <!-- A -->
+    <path d="M83 16 L88.5 0 H91.5 L97 16 H93.8 L92.5 12 H87.5 L86.2 16 Z M88.2 9.5 H91.8 L90 4 Z"/>
+    <!-- I -->
+    <path d="M100 0 H103 V16 H100 Z"/>
+  </g>
 </svg>
